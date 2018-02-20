@@ -1,0 +1,14 @@
+for raspbian
+
+    id: pi
+    pw: raspberry
+
+for ubuntu
+
+    id: ubuntu
+    pw: ubuntu
+
+for odroid linux
+
+    id: root
+    pw: odroid

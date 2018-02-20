@@ -1,0 +1,19 @@
+syntax on
+colorscheme cobalt
+au BufRead,BufNewFile *py,*pyw,*.c,*.h set tabstop=4
+set ts=4
+set shiftwidth=4
+set ai
+set gfs=12
+set guifont=Fixedsys:h13:cANSI
+set nu
+set backspace=2
+set fencs=utf-8,euc-kr,cp949,cp932,euc-jp,shift-jis,big5,latin1,ucs-2le
+
+set fdm=indent
+set fdc=4
+set fdl=1
+
+set encoding=cp949
+set fileencodings=utf-8,cp949
+set langmenu=cp949

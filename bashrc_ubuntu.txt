@@ -1,0 +1,27 @@
+
+alias re='cd ~/Dropbox/01_repo'
+alias te='cd ~/Dropbox/01_repo/scripts'
+alias ge='cd ~/Dropbox/01_repo/gows'
+
+alias av1='avahi-resolve -n -4 rpi3.local'
+alias av2='avahi-resolve -n -4 rpizw.local'
+alias av3='avahi-resolve -n -4 nar1.local'
+
+alias am='sudo minicom -b 115200 -o -D /dev/ttyUSB0'
+
+
+# powerline's location can be vary...
+# - /usr/share/powerline/
+# - /usr/local/lib/python3.x/dist-packages/powerline/
+# - ~/.local/lib/python3.x/site-packages/powerline
+
+
+#if [ -f ~/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh ]; then
+#    source ~/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
+#fi
+
+if [ -f /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh ]; then
+    source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh
+fi
+
+export GOPATH=$GOPATH:$HOME/Dropbox/01_repo/gows

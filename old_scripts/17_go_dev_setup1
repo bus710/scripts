@@ -1,0 +1,53 @@
+echo 
+echo "=================================================" 
+echo "=================================================" 
+echo "=================================================" 
+ 
+echo  
+echo "" 
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/golang/bin" >> $HOME/.bashrc 
+echo "export GOPATH=$HOME/golang" >> $HOME/.bashrc 
+echo "alias gl='cd $HOME/golang/src'" >> $HOME/.bashrc 
+source $HOME/.bashrc 
+ 
+echo 
+echo "current environment" 
+echo $PATH 
+echo $GOPATH 
+echo 
+echo "make golang directory again" 
+rm -rf $HOME/golang 
+mkdir $HOME/golang 
+echo  
+echo "make vim directory again" 
+rm -rf $HOME/.vim 
+mkdir -p $HOME/.vim/autoload $HOME/.vim/bundle 
+ 
+echo 
+echo "install pathogen" 
+cd $HOME/.vim/autoload 
+curl -LSso pathogen.vim https://tpo.pe/pathogen.vim 
+echo "execute pathogen#infect()" >> $HOME/.vimrc 
+echo "filetype plugin indent on" >> $HOME/.vimrc 
+# vim +GoInstallBinaries +qall 
+ 
+echo 
+echo "install vim-go" 
+cd $HOME/.vim/bundle 
+git clone https://github.com/fatih/vim-go.git 
+ 
+echo 
+echo "current environment" 
+echo $PATH 
+echo $GOPATH 
+echo 
+ 
+echo "==================================================" 
+echo  
+echo "1. source ~/.bashrc" 
+echo "2. run vim" 
+echo "3. run ':GoInstallBinaries' in vim" 
+echo "4. run script 18 in bash" 
+echo 
+echo "==================================================" 
+

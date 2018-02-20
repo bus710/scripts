@@ -1,0 +1,20 @@
+GET=go1.5.3.linux-arm.tar.gz 
+ 
+echo 
+echo "get golang tar from dave.cheney.net" 
+wget http://dave.cheney.net/paste/$TARGET 
+ 
+echo 
+echo "untar" 
+tar vxzf $TARGET 
+ 
+echo 
+echo "copy files" 
+sudo rm -rf /usr/local/go/ 
+sudo mv go /usr/local 
+rm $TARGET 
+ 
+echo  
+echo "" 
+echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc 
+source ~/.bashrc 
