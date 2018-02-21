@@ -2,6 +2,7 @@
 alias re='cd ~/Dropbox/01_repo'
 alias te='cd ~/Dropbox/01_repo/scripts'
 alias ge='cd ~/Dropbox/01_repo/gows'
+alias je='cd ~/Dropbox/01_repo/jsws'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias av2='avahi-resolve -n -4 rpizw.local'
