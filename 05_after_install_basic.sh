@@ -30,6 +30,7 @@ echo "!! PLEASE CHANGE OPENSSH PORT !!"
 echo "!! PLEASE CHANGE HOST NAME !!"
 echo "!! PLEASE RUN update-command-not-found !!"
 echo "!! PLEASE CHECK timezone (sudo dpkg-reconfigure tzdata) !!"
+echo "!! PLEASE CHANGE date (sudo date -s 06 Mar 2018 09:57 for example) !!"
 echo 
 
 ## for lubuntu, add "setxkbmap -option ctrl:nocaps" 
