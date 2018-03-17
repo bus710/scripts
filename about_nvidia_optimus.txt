@@ -17,6 +17,8 @@ Some manual work is requred to boot well.
 - normal booting
 - because of noacpi parameter, the nividia-setting cannot show the nvidia properitary GUI
 - but it shows prime setting and intel driver works well
+- there might be a conf file (nvidia-VERSION-hybrid.conf) in /etc/modprobe.d
+- and inxi -xG shows both drivers
 
 If don't configure pci=noacpi?
 intel mode: power control issue can appear (poweroff/reboot)
@@ -29,4 +31,5 @@ summary
 - don't use nvidia with noacpi (especially during nvidia driver installation)
 - use intel with noacpi 
 
-
+reference
+- https://forums.linuxmint.com/viewtopic.php?t=250235
