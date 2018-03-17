@@ -6,15 +6,17 @@ Some manual work is requred to boot well.
 - install Mint
 
 2. First time
-- compatibility mode booting again
+- compatibility mode booting again 
+- use nosplash param only for grub if need.
+- if use noacpi at this moment, nvidia driver won't be installed well.
 - install nvidia driver from Control Panel.
 - assign nosplash and pci=noacpi for /etc/default/grub (and update-grub)
 - reboot
 
 3. Second time
 - normal booting
-- because noacpi parameter nividia-setting cannot show nvidia properitary GUI
-- but it shows prime setting
+- because of noacpi parameter, the nividia-setting cannot show the nvidia properitary GUI
+- but it shows prime setting and intel driver works well
 
 If don't configure pci=noacpi?
 intel mode: power control issue can appear (poweroff/reboot)
@@ -24,7 +26,7 @@ I decide not to use nvidia mode in normal use.
 
 summary
 - utilize compatibility mode and nosplash
-- don't use nvidia with noacpi
+- don't use nvidia with noacpi (especially during nvidia driver installation)
 - use intel with noacpi 
 
 
