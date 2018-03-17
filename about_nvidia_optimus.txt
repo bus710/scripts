@@ -1,0 +1,27 @@
+For mint linux 18.3, I had an issue with nvidia properitary driver.
+Some manual work is requred to boot well.
+
+1. USB installer 
+- compatibility mode booting 
+- install Mint
+
+2. First time
+- compatibility mode booting again
+- install nvidia driver from Control Panel.
+- assign nosplash and pci=noacpi for /etc/default/grub (and update-grub)
+- reboot
+
+3. Second time
+- normal booting
+- because noacpi parameter nividia-setting cannot show nvidia properitary GUI
+- but it shows prime setting
+
+If don't configure pci=noacpi?
+intel mode: power control issue can appear (poweroff/reboot)
+nvidia mode: fan noise...
+
+I decide not to use nvidia mode in normal use.
+
+
+
+
