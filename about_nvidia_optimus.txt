@@ -22,6 +22,9 @@ nvidia mode: fan noise...
 
 I decide not to use nvidia mode in normal use.
 
-
+summary
+- utilize compatibility mode and nosplash
+- don't use nvidia with noacpi
+- use intel with noacpi 
 
 
