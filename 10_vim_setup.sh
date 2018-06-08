@@ -10,7 +10,7 @@ echo
 echo 'Copied cobalt.vim in the colors directory.'
 echo 
 
-sudo cp cobalt.vim /usr/share/vim/vim74/colors/
+sudo cp cobalt.vim /usr/share/vim/vim80/colors/
 
 echo
 echo 'Got Vim-Plug'
