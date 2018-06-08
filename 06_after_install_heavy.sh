@@ -16,6 +16,12 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 
 echo
+echo "Install vim-gnome"
+echo
+
+sudo apt install -y vim-gnome
+
+echo
 echo "Remove all deb files"
 echo
 
