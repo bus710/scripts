@@ -21,6 +21,7 @@ sudo apt install -y powerline
 sudo apt install -y curl
 sudo apt install -y usbtools
 sudo apt install -y wireless-tools
+sudo apt install -y libgnome-keyring0 #for gitkraken
 
 # Invoking the required services as default.
 sudo update-rc.d avahi-daemon defaults
