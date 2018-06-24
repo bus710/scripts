@@ -25,3 +25,12 @@ sudo bash -c 'echo "deb https://labs.picotech.com/debian/ picoscope main" >/etc/
 wget -O - https://labs.picotech.com/debian/dists/picoscope/Release.gpg.key | sudo apt-key add -a
 sudo apt-get update
 sudo apt-get install picoscope
+
+echo
+echo "If KiCad Symbols are required"
+echo
+echo "# sudo mkdir /usr/share/kicad/library"
+echo "# git clone https://github.com/KiCad/kicad-symbols"
+echo "# sudo mv kicad-symbols/* /usr/share/kicad/library"
+echo 
+echo "...and configure the path for KiCad Symbol Manager."
