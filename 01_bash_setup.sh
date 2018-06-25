@@ -11,3 +11,4 @@ echo
 rmdir ~/Documents
 rmdir ~/Music
 rmdir ~/Videos
+rmdir ~/Pictures
