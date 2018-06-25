@@ -4,6 +4,7 @@ alias tw='cd ~/Dropbox/01_repo/scripts'
 alias gw='cd ~/Dropbox/01_repo/gows'
 alias jw='cd ~/Dropbox/01_repo/jsws'
 alias pw='cd ~/Dropbox/01_repo/pyws'
+alias ew='cd ~/Dropbox/01_repo/csws'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias av2='avahi-resolve -n -4 rpizw.local'
@@ -22,8 +23,8 @@ alias am='sudo minicom -b 115200 -o -D /dev/ttyUSB0'
 #    source ~/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
 #fi
 
-if [ -f /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh ]; then
-    source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh
-fi
+#if [ -f /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh ]; then
+#    source /usr/local/lib/python3.5/dist-packages/powerline/bindings/bash/powerline.sh
+#fi
 
 # export GOPATH=$GOPATH:$HOME/Dropbox/01_repo/gows
