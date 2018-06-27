@@ -3,9 +3,11 @@
 # 1. For the basic stuff
 sudo apt install -y python3-pip
 
-pip3 install setuptools
-pip3 install wheel
-pip3 install pylint
+yes | sudo pip3 install setuptools
+yes | sudo pip3 install wheel
+yes | sudo pip3 install pylint
+yes | sudo pip3 install ipython
+yes | sudo pip3 install pyserial
 
 # 2. For the Qt5/QML stuff
 sudo apt install -y python3-pyqt5
