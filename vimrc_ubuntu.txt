@@ -23,7 +23,7 @@ set fdc=4
 set fdl=1
 set foldlevelstart=20
 
-set lines=60 columns=100
+"set lines=60 columns=100
 
 set encoding=utf-8
 set fileencodings=utf-8,euckr
