@@ -2,9 +2,9 @@
 alias rw='cd ~/Dropbox/01_repo'
 alias tw='cd ~/Dropbox/01_repo/scripts'
 alias gw='cd ~/Dropbox/01_repo/gows'
-alias jw='cd ~/Dropbox/01_repo/jsws'
 alias pw='cd ~/Dropbox/01_repo/pyws'
 alias ew='cd ~/Dropbox/01_repo/csws'
+alias jw='cd ~/Desktop/jsws'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias av2='avahi-resolve -n -4 rpizw.local'
