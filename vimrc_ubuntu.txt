@@ -48,7 +48,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'Shougo/vimshell.vim'
 "Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 "Plug 'sebdah/vim-delve'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --js-completer'}
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all'}
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
 
