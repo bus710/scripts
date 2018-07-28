@@ -27,10 +27,16 @@ sudo apt-get update
 sudo apt-get install picoscope
 
 echo
-echo "If KiCad Symbols are required"
+echo "==== If KiCad Symbols are required ===="
 echo
 echo "# sudo mkdir /usr/share/kicad/library"
 echo "# git clone https://github.com/KiCad/kicad-symbols"
 echo "# sudo mv kicad-symbols/* /usr/share/kicad/library"
 echo 
 echo "...and configure the path for KiCad Symbol Manager."
+echo
+echo "==== To make Picoscope shortcut ===="
+echo 
+echo "check /opt/picoscope/share and bin"
+echo
+
