@@ -1,5 +1,5 @@
 
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb ~/Desktop/
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O ~/Desktop/packages-microsoft-prod.deb
 
 sudo dpkg -i ~/Desktop/packages-microsoft-prod.deb
 sudo apt-get install -y apt-transport-https
