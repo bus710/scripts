@@ -30,10 +30,14 @@ echo
 echo "==== If KiCad Symbols are required ===="
 echo
 echo "# sudo mkdir /usr/share/kicad/library"
-echo "# git clone https://github.com/KiCad/kicad-symbols"
+echo "# git clone https://github.com/kicad/kicad-symbols"
 echo "# sudo mv kicad-symbols/* /usr/share/kicad/library"
+echo
+echo "# sudo mkdir /usr/share/kicad/footprints"
+echo "# git clone https://github.com/kicad/kicad-footprints"
+echo "# sudo mv kicad-foorprints/* /usr/share/kicad/footprints"
 echo 
-echo "...and configure the path for KiCad Symbol Manager."
+echo "...and configure the path for KiCad Symbol/Footprint Manager."
 echo
 echo "==== To make Picoscope shortcut ===="
 echo 
