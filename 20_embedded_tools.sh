@@ -2,9 +2,12 @@ echo
 echo "Install kicad, xsltproc"
 echo
 
-sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
+sudo add-apt-repository --yes ppa:js-reynaud/kicad-5
 sudo apt update
 sudo apt install -y kicad
+sudo apt install -y kicad-libraries
+sudo apt install -y kicad-symbols
+
 
 sudo apt install -y xsltproc # for BOM generating
 
