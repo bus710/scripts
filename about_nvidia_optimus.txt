@@ -2,13 +2,12 @@ For mint linux 18.3, I had an issue with nvidia properitary driver.
 Some manual work is requred to boot well.
 
 1. USB installer 
-- assign nomodeset option for grub 
+- assign nomodeset option for kernel parameter 
 - install Mint without 3rd party gpu driver
 
 2. First time
-- normal booting
-- install nvidia driver from Control Panel.
-- assign nosplash and pci=noacpi for /etc/default/grub (and update-grub)
+- assign nosplash and pci=noacpi to kernel parameter
+- edit /etc/default/grub to assign above option (and update-grub)
 - reboot
 
 3. Second and later time
