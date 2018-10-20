@@ -1,6 +1,12 @@
 # Installing the required GUI applications.
 
 echo 
+echo "Install CPU Frequency Indicator"
+echo
+
+sudo apt install indicator-cpufreq
+
+echo 
 echo "Install Chromium Browser"
 echo 
 
