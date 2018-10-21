@@ -7,6 +7,13 @@ echo
 sudo apt install indicator-cpufreq
 
 echo 
+echo "Install Simple Screen Recorder"
+echo
+
+sudo apt install simplescreenrecorder
+
+
+echo 
 echo "Install Chromium Browser"
 echo 
 
