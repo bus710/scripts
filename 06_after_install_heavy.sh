@@ -4,13 +4,13 @@ echo
 echo "Install CPU Frequency Indicator"
 echo
 
-sudo apt install indicator-cpufreq
+sudo apt install indicator-cpufreq -y
 
 echo 
 echo "Install Simple Screen Recorder"
 echo
 
-sudo apt install simplescreenrecorder
+sudo apt install simplescreenrecorder -y
 
 
 echo 
