@@ -7,6 +7,7 @@ sudo apt update
 sudo apt install -y kicad
 sudo apt install -y kicad-libraries
 sudo apt install -y kicad-symbols
+sudo apt install -y kicad-footprints
 
 
 sudo apt install -y xsltproc # for BOM generating
