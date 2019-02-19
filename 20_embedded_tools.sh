@@ -13,7 +13,7 @@ sudo apt install -y kicad-footprints
 sudo apt install -y xsltproc # for BOM generating
 
 # BOM plugins can be found:
-# /usr/lib/kicad/plugins
+# /usr/share/kicad/plugins
 
 
 
