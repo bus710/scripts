@@ -5,6 +5,7 @@ https://community.linuxmint.com/tutorial/view/1091a
 # Get the tar from Oracle
 
 http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
 
 # Install
 
