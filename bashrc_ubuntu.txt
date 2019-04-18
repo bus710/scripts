@@ -1,8 +1,9 @@
+# ===================================================
+
 # powerline's location can be vary...
 # - /usr/share/powerline/
 # - /usr/local/lib/python3.x/dist-packages/powerline/
 # - ~/.local/lib/python3.x/site-packages/powerline
-
 
 #if [ -f ~/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh ]; then
 #    source ~/.local/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
@@ -13,6 +14,7 @@
 #fi
 
 
+# ===================================================
 
 alias rw='cd ~/bus710@gmail.com/01_repo'
 alias tw='cd ~/bus710@gmail.com/01_repo/scripts'
@@ -21,7 +23,7 @@ alias pw='cd ~/bus710@gmail.com/01_repo/pyws'
 alias ew='cd ~/bus710@gmail.com/01_repo/csws'
 alias fw='cd ~/bus710@gmail.com/01_repo/FWWS'
 alias jw='cd ~/Desktop/jsws'
-alias jq='cd ~/Desktop/gqws/src'
+alias fl='cd ~/Desktop/flws'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias av2='avahi-resolve -n -4 rpizw.local'
