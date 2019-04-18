@@ -1,9 +1,7 @@
-https://www.linuxuprising.com/2019/03/how-to-install-oracle-java-12-jdk-12-in.html
+# https://www.linuxuprising.com/2019/03/how-to-install-oracle-java-12-jdk-12-in.html
 
-```
 sudo add-apt-repository ppa:linuxuprising/java
 sudo apt update
 sudo apt install oracle-java12-installer
 sudo apt install oracle-java12-set-default
-```
 
