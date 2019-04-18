@@ -23,7 +23,7 @@ alias pw='cd ~/bus710@gmail.com/01_repo/pyws'
 alias ew='cd ~/bus710@gmail.com/01_repo/csws'
 alias fw='cd ~/bus710@gmail.com/01_repo/FWWS'
 alias jw='cd ~/Desktop/jsws'
-alias fl='cd ~/Desktop/flws'
+alias fl='cd ~/Desktop/fltws'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias av2='avahi-resolve -n -4 rpizw.local'
