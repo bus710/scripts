@@ -1,22 +1,9 @@
-# Reference
-
-https://community.linuxmint.com/tutorial/view/1091a
-
-# Get the tar from Oracle
-
-http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
-https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html
-
-# Install
+https://www.linuxuprising.com/2019/03/how-to-install-oracle-java-12-jdk-12-in.html
 
 ```
-$ sudo mkdir -p -v /opt/java/64
-$ tar -zxvf jre-7u9-linux-x64.tar.gz
-$ sudo mv -v jre1.7.0_* /opt/java/64
-$ sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/64/jre1.7.0_09/bin/java" 1
-$ sudo update-alternatives --set java /opt/java/64/jre1.7.0_09/bin/java
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt update
+sudo apt install oracle-java12-installer
+sudo apt install oracle-java12-set-default
 ```
-
-Version number may vary.
-
 
