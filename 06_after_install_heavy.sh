@@ -18,7 +18,7 @@ echo "Install Chromium Browser"
 echo 
 
 sudo apt install -y chromium-browser
-#sudo apt-get install -y gnome-tweak-tool 
+sudo apt-get install -y gnome-tweak-tool 
 #sudo apt-get install -y unity-tweak-tool
 
 echo

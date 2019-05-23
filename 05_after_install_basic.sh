@@ -21,6 +21,7 @@ sudo apt install -y powerline
 sudo apt install -y curl
 sudo apt install -y tree
 sudo apt install -y usbtools
+sudo apt install -y net-tools
 sudo apt install -y wireless-tools
 sudo apt install -y libgnome-keyring0 #for gitkraken
 
