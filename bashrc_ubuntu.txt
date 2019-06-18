@@ -6,15 +6,14 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 alias rw='cd ~/bus710@gmail.com/01_repo'
 alias tw='cd ~/bus710@gmail.com/01_repo/scripts'
-
-alias gw='cd ~/bus710@gmail.com/01_repo/gows/src'
 alias pw='cd ~/bus710@gmail.com/01_repo/pyws'
 alias ew='cd ~/bus710@gmail.com/01_repo/csws'
-alias fw='cd ~/bus710@gmail.com/01_repo/FWWS'
-alias jw='cd ~/Desktop/jsws'
 
-alias fl='cd ~/Desktop/fltws'
+alias gw='cd ~/Desktop/gows/src'
+alias fw='cd ~/Desktop/fltws/projects'
+alias jw='cd ~/Desktop/jsws'
 alias cl='cd ~/Desktop/crdv'
+
 alias qq='cd ~/go/src/github.com/edgexfoundry'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
