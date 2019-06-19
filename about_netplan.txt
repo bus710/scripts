@@ -28,8 +28,8 @@ network:
                     optional: true
                     dhcp4: true
                     access-points:
-                            "rd":
-                                    password: "1213141567890"
+                            "AP_NAME":
+                                    password: "PASSWORD"
 
 ```
 
