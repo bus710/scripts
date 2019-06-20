@@ -1,0 +1,9 @@
+tmux new
+tmux a #
+
+^B + d
+^B + "
+^B + %
+^B + ^up/down/left/right
+^B + up/down/left/right
+
