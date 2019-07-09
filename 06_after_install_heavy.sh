@@ -1,5 +1,11 @@
 # Installing the required GUI applications.
 
+echo
+echo "Install vim-gnome"
+echo
+
+sudo apt install -y vim-gnome
+
 echo 
 echo "Install CPU Frequency Indicator"
 echo
@@ -11,7 +17,6 @@ echo "Install Simple Screen Recorder"
 echo
 
 sudo apt install simplescreenrecorder -y
-
 
 echo 
 echo "Install Chromium Browser"
@@ -27,12 +32,6 @@ echo
 
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
-
-echo
-echo "Install vim-gnome"
-echo
-
-sudo apt install -y vim-gnome
 
 echo
 echo "Remove all deb files"
