@@ -45,9 +45,6 @@ sudo systemctl stop avahi-daemon.service
 
 sudo apt install -y ufw
 
-# to prevent the warning
-sudo chmod 755 /
-
 sudo ufw allow 2222/tcp
 sudo ufw allow 80
 sudo ufw allow 443
