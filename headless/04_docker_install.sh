@@ -24,3 +24,4 @@ echo
 echo "!! Docker daemon is enabled/started !!"
 echo "!! Check Docker-Compose version (Currently 1.24) !!"
 echo "!! Add the user to the docker group !!"
+echo

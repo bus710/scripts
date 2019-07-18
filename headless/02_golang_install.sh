@@ -8,16 +8,15 @@ mkdir ~/go
 wget https://dl.google.com/go/go$VERSION.linux-amd64.tar.gz
 
 echo
-echo "Waiting for untar"
+echo "Wait for untar"
 echo
 
 sudo tar -xf go$VERSION.linux-amd64.tar.gz --strip-components=1 -C /usr/local/go
 rm *.tar.gz
 
-echo "export PATH='$PATH':/usr/local/go/bin:'$HOME'/go/bin" >> ~/.bashrc
-echo "export GOPATH='$HOME'/go" >> ~/.bashrc
-
-source ~/.bashrc
+echo 
+echo "Install Delve"
+echo 
 
 go get -u github.com/derekparker/delve/cmd/dlv
 

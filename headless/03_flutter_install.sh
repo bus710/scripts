@@ -15,7 +15,7 @@ echo
 wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/$VERSION
 
 echo
-echo "Waiting for untar"
+echo "Wait for untar"
 echo
 
 tar xf $VERSION
@@ -27,12 +27,6 @@ echo
 echo "Config the SDK"
 echo 
 
-echo "" >> ~/.bashrc
-echo "export PATH='$PATH':'$HOME'/flutter/bin" >> ~/.bashrc
-echo "export PATH='$PATH':'$HOME'/flutter/bin/cache/dart-sdk/bin" >> ~/.bashrc
-echo "export PATH='$PATH':'$HOME'/flutter/.pub-cache/bin" >> ~/.bashrc
-
-source ~/.bashrc
 flutter doctor
 
 echo
