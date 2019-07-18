@@ -1,6 +1,5 @@
 " Basic commands 
 
-colorscheme cobalt
 au BufRead,BufNewFile *py,*pyw,*.c,*.h,*.go,*.js,*.html,*.css set tabstop=4
 
 set ts=4
@@ -42,16 +41,17 @@ filetype off
 syntax on
 filetype plugin indent on
 
-call plug#begin('~/.vim/plugged')
-
+call plug#begin('~/.config/nvim/plugged')
 "Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 "Plug 'Shougo/vimshell.vim'
 "Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 "Plug 'sebdah/vim-delve'
+Plug 'roxma/nvim-completion-manager'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer'}
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
-
 call plug#end()
 
 nmap <C-t> :TagbarToggle<CR>
