@@ -39,7 +39,6 @@ filetype off
 " vim tools
 "execute pathogen#infect()
 syntax on
-color dracula
 filetype plugin indent on
 
 call plug#begin('~/.config/nvim/plugged')
