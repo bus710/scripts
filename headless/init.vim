@@ -39,6 +39,7 @@ filetype off
 " vim tools
 "execute pathogen#infect()
 syntax on
+color dracula
 filetype plugin indent on
 
 call plug#begin('~/.config/nvim/plugged')
@@ -56,6 +57,7 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sebdah/vim-delve'
+Plug 'dracula/vim', {'as': 'dracula'}
 call plug#end()
 
 nmap <C-t> :TagbarToggle<CR>

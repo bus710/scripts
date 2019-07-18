@@ -6,11 +6,16 @@ sudo mkdir -p /usr/local/go
 mkdir ~/go
 
 wget https://dl.google.com/go/go$VERSION.linux-amd64.tar.gz
-sudo tar -xvf go$VERSION.linux-amd64.tar.gz --strip-components=1 -C /usr/local/go
+
+echo
+echo "Waiting for untar"
+echo
+
+sudo tar -xf go$VERSION.linux-amd64.tar.gz --strip-components=1 -C /usr/local/go
 rm *.tar.gz
 
-echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> ~/.bashrc
-echo "export GOPATH=$HOME/go" >> ~/.bashrc
+echo "export PATH='$PATH':/usr/local/go/bin:'$HOME'/go/bin" >> ~/.bashrc
+echo "export GOPATH='$HOME'/go" >> ~/.bashrc
 
 source ~/.bashrc
 

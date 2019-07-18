@@ -13,6 +13,11 @@ echo "Download and install flutter SDK"
 echo 
 
 wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/$VERSION
+
+echo
+echo "Waiting for untar"
+echo
+
 tar xf $VERSION
 rm -rf ~/flutter
 mv flutter ~/
@@ -22,9 +27,10 @@ echo
 echo "Config the SDK"
 echo 
 
-echo "export PATH=$PATH:$HOME/flutter/bin"
-echo "export PATH=$PATH:$HOME/flutter/bin/cache/dart-sdk/bin"
-echo "export PATH=$PATH:$HOME/flutter/.pub-cache/bin"
+echo "" >> ~/.bashrc
+echo "export PATH='$PATH':'$HOME'/flutter/bin" >> ~/.bashrc
+echo "export PATH='$PATH':'$HOME'/flutter/bin/cache/dart-sdk/bin" >> ~/.bashrc
+echo "export PATH='$PATH':'$HOME'/flutter/.pub-cache/bin" >> ~/.bashrc
 
 source ~/.bashrc
 flutter doctor
