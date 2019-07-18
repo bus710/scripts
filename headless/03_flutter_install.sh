@@ -6,7 +6,7 @@ echo
 echo "Install the prerequisites"
 echo 
 
-sudo apt install lib32stdc++6
+sudo apt install -y lib32stdc++6
 
 echo 
 echo "Download and install flutter SDK"
