@@ -1,0 +1,9 @@
+
+sudo ufw allow 22/tcp
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw default deny incoming
+sudo ufw default deny outgoing
+sudo ufw enable
+sudo ufw status verbose
+sudo ufw delete N

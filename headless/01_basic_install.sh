@@ -35,12 +35,26 @@ sudo apt install -y avahi-daemon
 sudo apt install -y avahi-utils
 
 # Disable the installed services for now
-sudo systemctl disable ssh.service 
-sudo systemctl stop ssh.service 
+#sudo systemctl disable ssh.service 
+#sudo systemctl stop ssh.service 
+echo 
+echo "!! PLEASE CHANGE OPENSSH PORT and RELOGIN !!"
+
 sudo systemctl disable avahi-daemon.service 
 sudo systemctl stop avahi-daemon.service 
 
-echo 
-echo "!! PLEASE CHANGE OPENSSH PORT !!"
-echo 
+sudo apt install -y ufw
 
+# to prevent the warning
+sudo chmod 755 /
+
+sudo ufw allow 2222/tcp
+sudo ufw allow 80
+sudo ufw allow 443
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
+sudo ufw status verbose
+
+echo 
+echo "!! UFW is enabled !!"
