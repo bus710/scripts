@@ -34,6 +34,7 @@ echo "Change the channel"
 echo
 
 flutter channel master
+flutter upgrade
 
 echo 
 echo "Install webdev" 
