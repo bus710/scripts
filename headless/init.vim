@@ -42,17 +42,20 @@ syntax on
 filetype plugin indent on
 
 call plug#begin('~/.config/nvim/plugged')
-"Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-"Plug 'Shougo/vimshell.vim'
-"Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-"Plug 'sebdah/vim-delve'
 Plug 'roxma/nvim-completion-manager'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'tpope/vim-fugitive'
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py --all'}
+Plug 'Valloric/YouCompleteMe', { 'do': '/usr/bin/python3 ./install.py --clang-completer --go-completer'}
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-syntastic/syntastic'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'sebdah/vim-delve'
 call plug#end()
 
 nmap <C-t> :TagbarToggle<CR>
