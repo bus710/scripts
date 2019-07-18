@@ -1,4 +1,5 @@
-#/bin/bash
+#!/bin/bash
+
 echo
 echo "Start installing things for NeoVim/Go/Flutter/Docker development system"
 echo
