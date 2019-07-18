@@ -26,11 +26,6 @@ sudo apt install -y powerline
 sudo apt install -y curl
 sudo apt install -y tree
 
-sudo apt install -y neovim
-sudo apt install -y python3-pip
-
-pip3 install --user neovim
-
 sudo apt install -y openssh-server
 sudo apt install -y avahi-daemon
 sudo apt install -y avahi-utils
