@@ -30,7 +30,7 @@ set langmenu=utf-8
 
 "set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 set laststatus=2
-set t_Co=256
+"set t_Co=256
 
 set nocompatible
 filetype off
@@ -58,6 +58,7 @@ Plug 'sebdah/vim-delve'
 "Plug 'dracula/vim', {'as': 'dracula'}
 Plug 'sickill/vim-monokai'
 Plug 'dracula/vim'
+Plug 'ayu-theme/ayu-vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 call plug#end()
@@ -66,6 +67,10 @@ call plug#end()
 syntax on
 "color monokai
 color dracula
+"color ayu
+let ayucolor="mirage"
+
+set termguicolors
 
 nmap <C-t> :TagbarToggle<CR>
 nmap <C-n> :NERDTreeToggle<CR>
