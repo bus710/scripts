@@ -1,45 +1,47 @@
-" Basic commands 
+" To activate this, please store it in ~/.config/nvim/ 
+" A good refrence: https://vimhelp.org/quickref.txt.html
 
-au BufRead,BufNewFile *py,*pyw,*.c,*.h,*.go,*.js,*.html,*.css set tabstop=4
+" Variables
+let hostname = substitute(system('hostname'), '\n', '', '')
+if hostname == "test"
+endif
 
-set ts=4
+" Autocommand - these file types need tabstop 4 when being read.
+au BufRead,BufNewFile *.dart,*.md,*.go,*py,*pyw,*.c,*.h,*.js,*.html,*.css set tabstop=4
+
+" Options <interface>
+set number
+set laststatus=2
+set statusline=%{hostname}
+"set lines=60 columns=100 " If really want
+
+" Options <tab size>
+set ts=4 
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
+set smartindent
 
-set ai 
-set si 
-set nu
-
-"set gfs=12
-"set guifont=Fixedsys:h13:cANSI
-"set guifont=Monospace\ 10
-
-"set fencs=utf-8,euc-kr,cp949,cp932,euc-jp,shift-jis,big5,latin1,ucs-2le
-
-"set fdm=indent
-"set fdc=4
-"set fdl=1
-"set foldlevelstart=20
-
-"set lines=60 columns=100
-
+" Options <encoding>
+set langmenu=utf-8
 set encoding=utf-8
 set fileencodings=utf-8,euckr
-set langmenu=utf-8
+set fencs=utf-8,euc-kr,cp949,cp932,euc-jp,shift-jis,big5,latin1,ucs-2le
 
-"set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
-set laststatus=2
-"set t_Co=256
+" Options <etc>
+set modelines=0 " For security
 
-set nocompatible
-filetype off
+" Folding related
+set fdm=indent
+set fdc=4
+set fdl=1
+set foldlevelstart=20
 
-" vim tools
-"execute pathogen#infect()
-
+" Filetype related
 filetype plugin indent on
 
+" Vim-Plug related. Do :PlugInstall
 call plug#begin('~/.config/nvim/plugged')
 Plug 'roxma/nvim-completion-manager'
 Plug 'SirVer/ultisnips'
@@ -48,32 +50,33 @@ Plug 'Valloric/YouCompleteMe', { 'do': '/usr/bin/python3 ./install.py --clang-co
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-fugitive'
-"Plug 'vim-syntastic/syntastic'
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sebdah/vim-delve'
-"Plug 'dracula/vim', {'as': 'dracula'}
-Plug 'sickill/vim-monokai'
-Plug 'dracula/vim'
-Plug 'ayu-theme/ayu-vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+" Color Themes
+Plug 'dracula/vim'
+"Plug 'tomasiser/vim-code-dark'
+"Plug 'sickill/vim-monokai'
+"Plug 'ayu-theme/ayu-vim'
+"Plug 'vim-syntastic/syntastic' " This makes some delay on dart files
 call plug#end()
 
-" Color should come after plug#end
-syntax on
-"color monokai
-color dracula
-"color ayu
-let ayucolor="mirage"
-
+" Color settings should come after Vim-Plug config
 set termguicolors
+set t_Co=256
+syntax on
+color dracula
+colorscheme dracula
 
+" Short-cuts
 nmap <C-t> :TagbarToggle<CR>
 nmap <C-n> :NERDTreeToggle<CR>
 
+" Plug-in variables
 let g:flutter_hot_reload_on_save = 0
 let g:flutter_hot_restart_on_save = 0
