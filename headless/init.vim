@@ -37,7 +37,7 @@ filetype off
 
 " vim tools
 "execute pathogen#infect()
-syntax on
+
 filetype plugin indent on
 
 call plug#begin('~/.config/nvim/plugged')
@@ -55,8 +55,17 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sebdah/vim-delve'
-Plug 'dracula/vim', {'as': 'dracula'}
+"Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'sickill/vim-monokai'
+Plug 'dracula/vim'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 call plug#end()
+
+" Color should come after plug#end
+syntax on
+"color monokai
+color dracula
 
 nmap <C-t> :TagbarToggle<CR>
 nmap <C-n> :NERDTreeToggle<CR>

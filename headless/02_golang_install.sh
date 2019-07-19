@@ -1,18 +1,18 @@
 #!/bin/bash
 
-VERSION="1.12.7"
+VERSION="go1.12.7.linux-amd64.tar.gz"
 
 sudo mkdir -p /usr/local/go
 mkdir ~/go
 
-wget https://dl.google.com/go/go$VERSION.linux-amd64.tar.gz
+wget https://dl.google.com/go/$VERSION
 
 echo
 echo "Wait for untar"
 echo
 
-sudo tar -xf go$VERSION.linux-amd64.tar.gz --strip-components=1 -C /usr/local/go
-rm *.tar.gz
+sudo tar -xf $VERSION --strip-components=1 -C /usr/local/go
+rm $VERSION
 
 echo 
 echo "Install Delve"
