@@ -35,6 +35,8 @@ sudo apt install -y avahi-utils
 cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
+sudo apt autoremove
+
 echo
 echo "!! CHANGE THE PORT NUMBER OF SSH !!"
 echo
