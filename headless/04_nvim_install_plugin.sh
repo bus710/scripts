@@ -38,6 +38,7 @@ cp init.vim ~/.config/nvim/init.vim
 nvim -v
 
 echo
+echo "Run :PlugInstall"
 echo
 
 # TODO: airline installation
