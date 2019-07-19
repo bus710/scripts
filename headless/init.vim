@@ -1,8 +1,13 @@
 " To activate this, please store it in ~/.config/nvim/ 
-" A good refrence: https://vimhelp.org/quickref.txt.html
+" Refrences
+" - https://vimhelp.org/quickref.txt.html
+" - https://devhints.io/vimscript
 
 " Variables
 let hostname = substitute(system('hostname'), '\n', '', '')
+let whoami = substitute(system('whoami'), '\n', '', '')
+let name = hostname . "/" . whoami " Concat the strings
+
 if hostname == "test"
 endif
 
@@ -12,7 +17,7 @@ au BufRead,BufNewFile *.dart,*.md,*.go,*py,*pyw,*.c,*.h,*.js,*.html,*.css set ta
 " Options <interface>
 set number
 set laststatus=2
-set statusline=%{hostname}
+set statusline=%{name}
 "set lines=60 columns=100 " If really want
 
 " Options <tab size>
@@ -58,6 +63,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'sebdah/vim-delve'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim'
 " Color Themes
 Plug 'dracula/vim'
 "Plug 'tomasiser/vim-code-dark'
