@@ -1,25 +1,14 @@
 # ===================================================
-# ===================================================
-# ===================================================
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 
-alias rw='cd ~/bus710@gmail.com/01_repo'
-alias tw='cd ~/bus710@gmail.com/01_repo/scripts'
-alias pw='cd ~/bus710@gmail.com/01_repo/pyws'
-alias ew='cd ~/bus710@gmail.com/01_repo/csws'
-
-alias gw='cd ~/Desktop/gows/src'
-alias fw='cd ~/Desktop/fltws/projects'
-alias jw='cd ~/Desktop/jsws'
-alias cl='cd ~/Desktop/crdv'
-
+alias rw='cd ~/repo'
+alias tw='cd ~/repo/scripts'
+alias gw='cd ~/repo/gows'
+alias fw='cd ~/repo/fltws'
 alias qq='cd ~/go/src/github.com/edgexfoundry'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
-alias av2='avahi-resolve -n -4 rpizw.local'
-alias av3='avahi-resolve -n -4 nar1.local'
-
 alias am='sudo minicom -b 115200 -o -D /dev/ttyUSB0'
 
 

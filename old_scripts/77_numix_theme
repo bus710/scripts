@@ -1,7 +1,0 @@
-echo 'press enter when you needed'
-
-sudo add-apt-repository ppa:numix/ppa
-sudo apt-get update
-sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-
-unity-tweak-tool
