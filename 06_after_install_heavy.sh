@@ -21,9 +21,10 @@ sudo apt-get install -y gnome-tweak-tool
 #sudo apt-get install -y unity-tweak-tool
 
 echo
-echo "Install Gitkraken"
+echo "Install Gitkraken and its prerequisites"
 echo
 
+sudo apt install -y gconf2 gconf-service libgtk2.0-0
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
 
