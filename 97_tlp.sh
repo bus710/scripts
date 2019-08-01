@@ -1,7 +1,28 @@
-sudo add-apt-repository ppa:linrunner/tlp
-sudo apt-get update
-sudo apt-get install tlp tlp-rdw
+#!/bin/bash
 
 echo
-echo "in case of thinkpad"
-echo "sudo apt-get install tp-smapi-dkms acpi-call-dkms"
+echo "MS' Surfece can have issue with this"
+echo "Do you want to install? (y/n)"
+echo
+
+read -n 1 ans
+echo
+
+if [ $ans == "y" ]
+then
+    sudo add-apt-repository ppa:linrunner/tlp
+    sudo apt update
+    sudo apt install -y tlp tlp-rdw
+fi
+
+echo 
+echo "Is this Thinkpad? (y/n)"
+echo 
+
+read -n 1 ans
+echo
+
+if [ $ans == "y" ]
+then
+    sudo apt install -y tp-smapi-dkms acpi-call-dkms
+fi
