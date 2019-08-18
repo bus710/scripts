@@ -16,7 +16,16 @@ echo
 echo "Install Chromium Browser"
 echo 
 
-sudo apt install -y chromium-browser
+#sudo apt install -y chromium-browser
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt update 
+sudo apt install -y google-chrome-stable
+
+echo 
+echo "Install Team Tools"
+echo 
+
 sudo apt-get install -y gnome-tweak-tool 
 #sudo apt-get install -y unity-tweak-tool
 
