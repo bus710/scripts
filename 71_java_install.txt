@@ -1,3 +1,5 @@
+If JRE is required for Android development, please use the JRE in android studio.
+
 # =========================================
 # For oracle java 12
 # =========================================
