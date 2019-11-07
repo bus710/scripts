@@ -24,5 +24,5 @@ echo
 
 if [ $ans == "y" ]
 then
-    sudo apt install -y tp-smapi-dkms acpi-call-dkms
+    echo "do this manually: \n\t sudo apt install -y tp-smapi-dkms acpi-call-dkms \n"
 fi

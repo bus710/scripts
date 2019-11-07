@@ -5,5 +5,5 @@ sudo apt remove firefox thunderbird libreoffice*
 sudo apt install -y usbtools
 sudo apt install -y net-tools
 sudo apt install -y wireless-tools
-sudo apt install -y libgnome-keyring0 #for gitkraken
+# sudo apt install -y libgnome-keyring0 #for gitkraken
 

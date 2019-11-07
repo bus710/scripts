@@ -23,7 +23,7 @@ sudo apt update
 sudo apt install -y google-chrome-stable
 
 echo 
-echo "Install Team Tools"
+echo "Install Teak Tools"
 echo 
 
 sudo apt-get install -y gnome-tweak-tool 
