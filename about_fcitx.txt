@@ -1,7 +1,0 @@
-1. sudo apt install fcitx-hangul
-
-2. im-config -n fcitx
-
-3. reboot
-
-4. fcitx-config-gtk3
