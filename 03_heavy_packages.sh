@@ -49,6 +49,6 @@ echo "https://code.visualstudio.com/docs/?dv=linux64_deb"
 echo "https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
 echo
 echo "To install Slack"
-echo "https://downloads.slack-edge.com/"
+echo "https://slack.com/downloads/linux"
 echo
 
