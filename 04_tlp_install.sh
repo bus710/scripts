@@ -16,13 +16,7 @@ then
 fi
 
 echo 
-echo "Is this Thinkpad? (y/n)"
+echo "If this is a thinkpad:"
 echo 
-
-read -n 1 ans
+echo "do this manually: \n\t sudo apt install -y tp-smapi-dkms acpi-call-dkms"
 echo
-
-if [ $ans == "y" ]
-then
-    echo "do this manually: \n\t sudo apt install -y tp-smapi-dkms acpi-call-dkms \n"
-fi
