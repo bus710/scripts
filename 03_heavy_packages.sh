@@ -38,12 +38,12 @@ rm *.deb
 
 echo
 echo "To install Vscode"
-echo "\t- https://code.visualstudio.com/docs/?dv=linux64_deb"
-echo "\t- https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
+echo "- https://code.visualstudio.com/docs/?dv=linux64_deb"
+echo "- https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
 echo
 echo "To install Slack"
-echo "\t- https://slack.com/downloads/linux"
+echo "- https://slack.com/downloads/linux"
 echo
 echo "To install Android Studio"
-echo "\t- https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz"
+echo "- https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz"
 echo 
