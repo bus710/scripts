@@ -16,7 +16,7 @@ then
 fi
 
 echo 
-echo "If this is a thinkpad:"
 echo 
-echo "do this manually: \n\t sudo apt install -y tp-smapi-dkms acpi-call-dkms"
+echo "Do this manually if this is a THINKPAD:"
+echo "- sudo apt install -y tp-smapi-dkms acpi-call-dkms"
 echo
