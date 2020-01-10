@@ -6,6 +6,9 @@ sudo apt install -y \
     net-tools \
     wireless-tools \
     ufw \
-    gufw
+    gufw \
+    inxi \
+    glmark2
+
 # sudo apt install -y libgnome-keyring0 #for gitkraken
 
