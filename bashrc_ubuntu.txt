@@ -5,13 +5,11 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 alias gw='cd ~/repo/gows'
 alias fw='cd ~/repo/fltws'
-alias kw='cd ~/repo/ktlws'
 
 alias lw='cd ~/repo/leetcode-go'
 alias qq='cd ~/go/src/github.com/edgexfoundry'
 
 alias av1='avahi-resolve -n -4 rpi3.local'
 alias am='sudo minicom -b 115200 -o -D /dev/ttyUSB0'
-
 
 
