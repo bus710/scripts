@@ -37,6 +37,12 @@ sudo dpkg -i gitkraken-amd64.deb
 rm *.deb
 
 echo
+echo "Install MQTT explorer"
+echo
+
+sudo snap install mqtt-explorer
+
+echo
 echo "To install Vscode"
 echo "- https://code.visualstudio.com/docs/?dv=linux64_deb"
 echo "- https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
