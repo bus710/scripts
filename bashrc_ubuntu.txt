@@ -8,6 +8,7 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[01;31m\]@\[\033[0
 alias dw='cd ~/repo/docs'
 alias gw='cd ~/repo/gows'
 alias fw='cd ~/repo/fltws'
+alias pw='cd ~/repo/pyws'
 alias rw='cd ~/repo/rustw'
 
 alias lw='cd ~/repo/leetcode-go'
