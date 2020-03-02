@@ -11,7 +11,6 @@ alias gq='cd ~/repo/gqws'
 alias fw='cd ~/repo/fltws'
 alias pw='cd ~/repo/pyws'
 alias rw='cd ~/repo/rustw'
-alias cp='cd ~/repo/cppws'
 alias bw='cd ~/repo/blog'
 
 alias lw='cd ~/repo/leetcode-go'
