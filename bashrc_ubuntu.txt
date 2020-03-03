@@ -5,18 +5,4 @@
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[01;31m\]@\[\033[01;32m\]\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
 
 
-alias dw='cd ~/repo/docs'
-alias gw='cd ~/repo/gows'
-alias gq='cd ~/repo/gqws'
-alias fw='cd ~/repo/fltws'
-alias pw='cd ~/repo/pyws'
-alias rw='cd ~/repo/rustw'
-alias bw='cd ~/repo/blog'
-
-alias lw='cd ~/repo/leetcode-go'
-alias qq='cd ~/go/src/github.com/edgexfoundry'
-
-alias av1='avahi-resolve -n -4 rpi3.local'
-alias am='sudo minicom -b 115200 -o -D /dev/ttyUSB0'
-
 
