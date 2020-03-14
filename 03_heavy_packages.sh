@@ -40,6 +40,7 @@ echo
 echo "Install MQTT explorer"
 echo
 
+sudo apt install snapd
 sudo snap install mqtt-explorer
 
 echo
