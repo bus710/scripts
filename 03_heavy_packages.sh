@@ -4,7 +4,7 @@ echo
 echo "Install vim-gnome"
 echo
 
-sudo apt install -y vim-gnome
+sudo apt install -y vim-gtk3
 
 echo 
 echo "Install Simple Screen Recorder"
