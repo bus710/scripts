@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install fcitx fcitx-config-gtx fcitx-hangul
+sudo apt install fcitx fcitx-config-gtk fcitx-hangul
 im-config -n fcitx
 
 echo
