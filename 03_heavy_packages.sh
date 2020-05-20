@@ -28,20 +28,14 @@ echo
 sudo apt-get install -y gnome-tweak-tool 
 
 echo
-echo "Install Gitkraken and its prerequisites"
-echo
-
-sudo apt install -y gconf2 gconf-service libgtk2.0-0
-wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
-sudo dpkg -i gitkraken-amd64.deb
-rm *.deb
-
-echo
-echo "Install MQTT explorer"
+echo "Install snap packages"
+echo "- mqtt-explorer"
+echo "- gitkraken"
 echo
 
 sudo apt install snapd
 sudo snap install mqtt-explorer
+sudo snap install gitkraken
 
 echo
 echo "To install Vscode"
