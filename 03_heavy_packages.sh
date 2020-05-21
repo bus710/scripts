@@ -35,7 +35,7 @@ echo
 
 sudo apt install snapd
 sudo snap install mqtt-explorer
-sudo snap install gitkraken
+sudo snap install gitkraken --classic
 
 echo
 echo "To install Vscode"
