@@ -45,6 +45,9 @@ echo
 echo "To install Slack"
 echo "- https://slack.com/downloads/linux"
 echo
+echo "To install Synergy"
+echo "- https://members.symless.com/synergy/downloads/list/s1"
+echo
 echo "To install Android Studio"
 echo "- https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz"
 echo 
