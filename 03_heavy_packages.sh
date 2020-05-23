@@ -28,9 +28,7 @@ echo
 sudo apt-get install -y gnome-tweak-tool 
 
 echo
-echo "Install snap packages"
-echo "- mqtt-explorer"
-echo "- gitkraken"
+echo "Install snapd"
 echo
 
 sudo apt install snapd
@@ -38,16 +36,13 @@ sudo snap install mqtt-explorer
 sudo snap install gitkraken --classic
 
 echo
-echo "To install Vscode"
+echo "And more:"
 echo "- https://code.visualstudio.com/docs/?dv=linux64_deb"
 echo "- https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
-echo
-echo "To install Slack"
-echo "- https://slack.com/downloads/linux"
-echo
-echo "To install Synergy"
-echo "- https://members.symless.com/synergy/downloads/list/s1"
-echo
-echo "To install Android Studio"
 echo "- https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz"
+echo "- https://slack.com/downloads/linux"
+echo "- https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion"
+echo "- https://snapcraft.io/mqtt-explorer"
+echo "- https://snapcraft.io/gitkraken"
+echo "- https://members.symless.com/synergy/downloads/list/s1"
 echo 
