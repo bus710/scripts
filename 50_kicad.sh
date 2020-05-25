@@ -6,7 +6,7 @@ sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
 sudo apt update
 
 sudo apt install --install-recommends \
-    kicad kicad-demo kicad-local-en kicad-doc-en
+    kicad kicad-demos kicad-local-en kicad-doc-en
 
 # sudo apt install -y xsltproc # for BOM generating
 
