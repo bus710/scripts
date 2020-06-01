@@ -11,3 +11,8 @@ echo "Firebase login"
 echo
 
 firebase login
+
+echo
+echo "Check the detail:"
+echo "- https://github.com/firebase/firebase-tools"
+echo
