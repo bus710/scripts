@@ -28,21 +28,24 @@ echo
 sudo apt-get install -y gnome-tweak-tool 
 
 echo
-echo "Install snapd"
+echo "Install snapd and snap packages"
 echo
 
 sudo apt install snapd
+
+# Classic
+sudo snap install --classic goland
+sudo snap install --classic android-studio 
+sudo snap install --classic code 
+sudo snap install --classic code-insiders 
+sudo snap install --classic gitkraken 
+
+# Not classic
 sudo snap install mqtt-explorer
-sudo snap install gitkraken --classic
 
 echo
 echo "And more:"
-echo "- https://code.visualstudio.com/docs/?dv=linux64_deb"
-echo "- https://code.visualstudio.com/docs/?dv=linux64_deb&build=insiders"
-echo "- https://dl.google.com/dl/android/studio/ide-zips/3.5.2.0/android-studio-ide-191.5977832-linux.tar.gz"
 echo "- https://slack.com/downloads/linux"
 echo "- https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app#desktopAppDownloadregion"
-echo "- https://snapcraft.io/mqtt-explorer"
-echo "- https://snapcraft.io/gitkraken"
 echo "- https://members.symless.com/synergy/downloads/list/s1"
 echo 
