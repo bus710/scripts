@@ -20,3 +20,21 @@ echo
 
 cat ideavimrc >> ~/.ideavimrc
 
+echo
+echo "These are installed:"
+echo "- Goland"
+echo "- Android Studio"
+echo "- Vscode (+insider)"
+echo "- Gitkraken"
+echo "- Mqtt explorer"
+echo
+
+echo
+echo "For JetBrains' IDEs:"
+echo "- Install Ideavim, Dracula, File Watcher"
+echo "- Goland has gofmt on save under:"
+echo "  File => Settings => Tools => File Watcher"
+echo "- Android Studio has dart fmt on save under:"
+echo "  File => Settings => Languages => Flutter"
+echo
+
