@@ -15,10 +15,8 @@ sudo snap install --classic gitkraken
 sudo snap install mqtt-explorer
 
 echo
-echo "Disable ideavim sound"
+echo "Config ideavim"
 echo
 
-touch ~/.ideavimrc
-echo "set visualbell" >> ~/.ideavimrc
-echo "set noerrorbells" >> ~/.ideavimrc
+cat ideavimrc >> ~/.ideavimrc
 
