@@ -9,7 +9,6 @@ sudo snap install --classic goland
 sudo snap install --classic android-studio 
 sudo snap install --classic code 
 sudo snap install --classic code-insiders 
-sudo snap install --classic gitkraken 
 
 # Not classic
 sudo snap install mqtt-explorer
@@ -25,7 +24,6 @@ echo "These are installed:"
 echo "- Goland"
 echo "- Android Studio"
 echo "- Vscode (+insider)"
-echo "- Gitkraken"
 echo "- Mqtt explorer"
 echo
 
