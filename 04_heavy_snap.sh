@@ -14,7 +14,7 @@ sudo snap install --classic code-insiders
 sudo snap install mqtt-explorer
 
 echo
-echo "Config ideavim"
+echo "Config ideavim for no sound"
 echo
 
 cat ideavimrc >> ~/.ideavimrc
