@@ -29,12 +29,13 @@ echo
 
 echo
 echo "For JetBrains' IDEs:"
-echo "1. Install Ideavim, Dracula, File Watcher"
-echo "2. Goland has gofmt on save under:"
-echo "   File => Settings => Tools => File Watcher"
-echo "3. Android Studio has dartfmt on save under:"
-echo "   File => Settings => Languages => Flutter"
-echo "4. Android Studio requires SDK update:"
-echo "   File => Settings => Appearance => System Settings => Android SDK"
+echo "1. Mutual"
+echo "   Install Ideavim, Dracula, File Watcher"
+echo "2. Goland"
+echo "   gofmt: File > Settings > Tools > File Watcher"
+echo "   import unfolding: File > Editor > General > Code Folding"
+echo "3. Android Studio"
+echo "   dartfmt: File > Settings > Languages > Flutter"
+echo "   SDK update: File > Settings > Appearance > System Settings > Android SDK"
 echo
 
