@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$EUID" != 0 ]
+then echo "Please run as the super user (w/ sudo)"
+  exit
+fi
+
 echo
 echo "MS' Surfece can have issue with this"
 echo "Do you want to install? (y/n)"
@@ -10,9 +15,9 @@ echo
 
 if [ $ans == "y" ]
 then
-    sudo add-apt-repository ppa:linrunner/tlp
-    sudo apt update
-    sudo apt install -y tlp tlp-rdw
+    add-apt-repository ppa:linrunner/tlp
+    apt update
+    apt install -y tlp tlp-rdw
 fi
 
 echo 

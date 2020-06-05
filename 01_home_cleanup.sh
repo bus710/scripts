@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo
 echo "Home directory cleanup."
 echo

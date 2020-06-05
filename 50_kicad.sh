@@ -1,11 +1,18 @@
+#!/bin/bash
+
+if [ "$EUID" != 0 ]
+then echo "Please run as the super user (w/ sudo)"
+  exit
+fi
+
 echo
 echo "Install kicad"
 echo
 
-sudo add-apt-repository --yes ppa:js-reynaud/kicad-5.1
-sudo apt update
+add-apt-repository --yes ppa:js-reynaud/kicad-5.1
+apt update
 
-sudo apt install --install-recommends \
+apt install --install-recommends \
     kicad kicad-demos kicad-local-en kicad-doc-en
 
 # sudo apt install -y xsltproc # for BOM generating

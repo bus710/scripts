@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Installing GUI applications required.
 
 echo

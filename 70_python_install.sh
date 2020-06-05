@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Installing pip3 and libs for powerline-shell.
 
 # 1. For the basic stuff
