@@ -37,5 +37,6 @@ echo "   import unfolding: File > Editor > General > Code Folding"
 echo "3. Android Studio"
 echo "   dartfmt: File > Settings > Languages > Flutter"
 echo "   SDK update: File > Settings > Appearance > System Settings > Android SDK"
+echo "   webdev issue: flutter pub pub cache repair"
 echo
 
