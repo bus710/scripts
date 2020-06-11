@@ -9,6 +9,7 @@ sudo snap install --classic goland
 sudo snap install --classic android-studio 
 sudo snap install --classic code 
 sudo snap install --classic code-insiders 
+sudo snap install --classic slack
 
 # Not classic
 sudo snap install mqtt-explorer
