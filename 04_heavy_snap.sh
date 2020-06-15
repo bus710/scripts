@@ -10,6 +10,7 @@ sudo snap install --classic android-studio
 sudo snap install --classic code 
 sudo snap install --classic code-insiders 
 sudo snap install --classic slack
+sudo snap install --beta sqlitebrowser
 
 # Not classic
 sudo snap install mqtt-explorer
@@ -23,8 +24,10 @@ cat ideavimrc >> ~/.ideavimrc
 echo
 echo "These are installed:"
 echo "- Android Studio"
-echo "- Vscode (+insider)"
+echo "- Vscode"
+echo "- Vscode insider"
 echo "- Mqtt explorer"
+echo "- Sqlite browser"
 echo
 
 echo
